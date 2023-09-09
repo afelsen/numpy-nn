@@ -94,5 +94,5 @@ if __name__ == "__main__":
     nn = NN()
     data = Data()
 
-    train(nn, data, 10000)
+    train(nn, data, 50000)
     eval(nn, data)
